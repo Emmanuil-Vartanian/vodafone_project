@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#2c1029",
     borderRadius: 30,
     position: "relative",
-    marginBottom: 25
+    marginBottom: 15
   },
   greetingContainer: {
     paddingTop: 15,

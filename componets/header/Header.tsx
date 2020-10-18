@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <View style={styles.header}>
       <View style={styles.logoAndText}>
-        <Image source={require("../.././assets/logo.png")} style={styles.image} />
+        <Image
+          source={require("../.././assets/logo.png")}
+          style={styles.image}
+        />
         <Text style={styles.textLogo}>joice</Text>
       </View>
 
@@ -24,21 +27,22 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingTop: 15,
-    paddingBottom: 25
+    paddingTop: 10,
+    paddingBottom: 15,
   },
   logoAndText: {
     flexDirection: "row",
     alignItems: "center",
   },
   image: {
-    width: 50,
-    height: 50,
+    width: 45,
+    height: 45,
   },
   textLogo: {
     color: "white",
-    fontSize: 35,
+    fontSize: 30,
     paddingLeft: 30,
+    fontWeight: "bold"
   },
   navBar: {
     backgroundColor: "white",

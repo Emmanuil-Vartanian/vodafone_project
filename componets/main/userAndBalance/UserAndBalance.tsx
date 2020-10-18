@@ -5,14 +5,14 @@ import IconAntDesign from "react-native-vector-icons/AntDesign";
 const UserAndBalance = () => {
   return (
     <View style={styles.userAndBalance}>
-      <View style={styles.userAndTelefone}>
+      <View style={styles.userAndTelephone}>
         <View style={styles.user}>
           <IconAntDesign name="user" size={40} style={{ color: "white" }} />
         </View>
 
-        <View style={styles.myNumberAndTelefone}>
+        <View style={styles.myNumberAndTelephone}>
           <Text style={styles.myNumber}>Мой номер</Text>
-          <Text style={styles.telefone}>095 095 95 95</Text>
+          <Text style={styles.telephone}>095 095 95 95</Text>
         </View>
       </View>
 
@@ -55,10 +55,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  userAndTelefone: {
+  userAndTelephone: {
     alignItems: "center",
   },
-  myNumberAndTelefone: {
+  myNumberAndTelephone: {
     alignItems: "center",
   },
   myNumber: {
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-  telefone: {
+  telephone: {
     color: "white",
     fontSize: 14,
     marginTop: -2,

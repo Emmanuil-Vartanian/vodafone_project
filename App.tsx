@@ -12,6 +12,7 @@ export default function App() {
       colors={["#cb2142", "#963288"]}
       start={[0, 0.02]}
       end={[0.1, 0]}
+      
       style={styles.linearGradient}
     >
       <View style={styles.container}>
@@ -26,8 +27,6 @@ const styles = StyleSheet.create({
   container: {
     paddingLeft: 20,
     paddingRight: 20,
-    // paddingTop: 10,
-    // paddingBottom: 10,
     height: "100%",
   },
   linearGradient: {
